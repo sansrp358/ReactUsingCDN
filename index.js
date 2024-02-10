@@ -1,4 +1,4 @@
-const root = document.getElementById("root");
-const h1 = document.createElement("h1");
-h1.innerText = "Sanskruti";
-root.appendChild(h1);
+const div = React.createElement("div", {}, "I am a react element");
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(div);
+console.log("HI");
