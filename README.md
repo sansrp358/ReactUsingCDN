@@ -39,3 +39,30 @@ babel is a wrapper which comes with lot of functionalities. If you wan to conver
 If you wan to convert React code into something that a browser understands, then u will need preset react
 
 Open the POST above and create a file and the code mentioned in that
+
+-Add a file called "webpack.config.js" and paste the content from the POST into the file
+-Now create a src folder and move index.html and index.js into the src folder
+
+-skip some steps from the POST and then in package.json paste the below lines in scripts, here we are showing how to set up an react application from scratch
+
+"serve": "webpack serve --mode development",
+"build": "webpack --mode production"
+
+-HOT MODULE RELOAD
+
+---JSX, REACT ELEMENT and COMPONENTS and CONDITIONAL RENDERING
+
+Conditional Rendering
+Ternery Operators
+
+const isMorning = true
+const morning ="GOOOD MORNING"
+const afternoon = "GOOD AFTERNOON"
+const div = <div>{isMorning ? morning : afternoon}</div>
+
+-Functional Components -> Components basically are regular functions that returns React Elements
+
+-React Fragments are kind of empty tags that takes no space in the DOM and and help you wrap your code inside a component
+
+-----5. PROPS, CHILDREN, IMPORTS AND EXPORTS
+
