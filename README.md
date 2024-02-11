@@ -31,3 +31,11 @@ Read above POST
 install the following (We are creating a WenPack) (See below cmd there are multiple packages seperated with space)
 
 - "npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader html-webpack-plugin sass sass-loader style-loader url-loader webpack webpack-cli webpack-dev-server"
+
+- add node_modules to .gitignore
+
+To Create .babelrc file
+babel is a wrapper which comes with lot of functionalities. If you wan to convert ES6 into ES5 you will need "preset enviornments" for transfiling
+If you wan to convert React code into something that a browser understands, then u will need preset react
+
+Open the POST above and create a file and the code mentioned in that
