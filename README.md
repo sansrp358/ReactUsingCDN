@@ -66,3 +66,8 @@ const div = <div>{isMorning ? morning : afternoon}</div>
 
 -----5. PROPS, CHILDREN, IMPORTS AND EXPORTS
 
+export default App
+import App from './App' //if you are using default exports there is no need of using brackets and you can use any word while importing it like import Banana from './App' and you can have only one default exports
+
+export {App}
+import {App} from './App' //This are called as named imports
