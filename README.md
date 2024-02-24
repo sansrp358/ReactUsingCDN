@@ -71,3 +71,5 @@ import App from './App' //if you are using default exports there is no need of u
 
 export {App}
 import {App} from './App' //This are called as named imports
+
+-npm run serve to run the application
